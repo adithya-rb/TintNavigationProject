@@ -13,6 +13,9 @@
 		968654E91B5E85AA002A44AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968654E81B5E85AA002A44AD /* Images.xcassets */; };
 		968654EC1B5E85AA002A44AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968654EA1B5E85AA002A44AD /* LaunchScreen.xib */; };
 		968654F81B5E85AA002A44AD /* TintNavigationProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968654F71B5E85AA002A44AD /* TintNavigationProjectTests.swift */; };
+		968655021B5E8849002A44AD /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968655011B5E8849002A44AD /* addViewController.swift */; };
+		968655041B5E887A002A44AD /* organiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968655031B5E887A002A44AD /* organiseViewController.swift */; };
+		968655061B5E8ED3002A44AD /* doneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968655051B5E8ED3002A44AD /* doneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		968654F11B5E85AA002A44AD /* TintNavigationProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TintNavigationProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		968654F61B5E85AA002A44AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968654F71B5E85AA002A44AD /* TintNavigationProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintNavigationProjectTests.swift; sourceTree = "<group>"; };
+		968655011B5E8849002A44AD /* addViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		968655031B5E887A002A44AD /* organiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = organiseViewController.swift; sourceTree = "<group>"; };
+		968655051B5E8ED3002A44AD /* doneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				968654E51B5E85AA002A44AD /* Main.storyboard */,
 				968654E81B5E85AA002A44AD /* Images.xcassets */,
 				968654EA1B5E85AA002A44AD /* LaunchScreen.xib */,
+				968655011B5E8849002A44AD /* addViewController.swift */,
+				968655051B5E8ED3002A44AD /* doneViewController.swift */,
+				968655031B5E887A002A44AD /* organiseViewController.swift */,
 				968654DF1B5E85AA002A44AD /* Supporting Files */,
 			);
 			path = TintNavigationProject;
@@ -156,6 +165,8 @@
 		968654D41B5E85AA002A44AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Adithya Bharadwaj";
 				TargetAttributes = {
@@ -213,7 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				968654E41B5E85AA002A44AD /* ViewController.swift in Sources */,
+				968655021B5E8849002A44AD /* addViewController.swift in Sources */,
+				968655041B5E887A002A44AD /* organiseViewController.swift in Sources */,
 				968654E21B5E85AA002A44AD /* AppDelegate.swift in Sources */,
+				968655061B5E8ED3002A44AD /* doneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +425,7 @@
 				968654FD1B5E85AA002A44AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		968654FE1B5E85AA002A44AD /* Build configuration list for PBXNativeTarget "TintNavigationProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +434,7 @@
 				968655001B5E85AA002A44AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let color = UIColor.redColor()
+        self.navigationController?.navigationBar.tintColor = color
         // Do any additional setup after loading the view, typically from a nib.
     }
 
